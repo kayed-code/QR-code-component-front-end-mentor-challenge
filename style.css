@@ -1,0 +1,34 @@
+:root{ 
+--Grayish-blue: hsl(220, 15%, 87%);
+}
+body {
+    background: var(--Grayish-blue);
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+div {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+div img {
+    width: 100%;
+    border-radius: 10px;
+}
+div b {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+div p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #777777;
+}
